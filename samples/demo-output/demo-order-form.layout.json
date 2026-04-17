@@ -1,0 +1,1033 @@
+﻿{
+  "page": {
+    "width": 210,
+    "height": 297,
+    "unit": "mm",
+    "marginTop": 10.16,
+    "marginRight": 10.16,
+    "marginBottom": 12.7,
+    "marginLeft": 10.16
+  },
+  "elements": [
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 188.915,
+      "y2": 0,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0,
+      "y2": 7.056,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 188.915,
+      "height": 7.056,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "B2:G2"
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 188.915,
+      "height": 7.056,
+      "text": "注文書",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 5.64,
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B2"
+    },
+    {
+      "type": "line",
+      "x1": 188.915,
+      "y1": 0,
+      "x2": 188.915,
+      "y2": 7.056,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 7.056,
+      "x2": 188.915,
+      "y2": 7.056,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 12.347999999999999,
+      "x2": 0,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 12.347999999999999,
+      "width": 22.225,
+      "height": 5.292,
+      "text": "取引先",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#F8FAFC",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B4"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 12.347999999999999,
+      "x2": 188.915,
+      "y2": 12.347999999999999,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 12.347999999999999,
+      "width": 166.69,
+      "height": 5.292000000000002,
+      "key": "customer_name",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#F8FAFC",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C4"
+    },
+    {
+      "type": "line",
+      "x1": 22.225,
+      "y1": 12.347999999999999,
+      "x2": 22.225,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 12.347999999999999,
+      "width": 166.69,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C4:G4"
+    },
+    {
+      "type": "line",
+      "x1": 55.563,
+      "y1": 12.347999999999999,
+      "x2": 55.563,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 88.90100000000001,
+      "y1": 12.347999999999999,
+      "x2": 88.90100000000001,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 122.239,
+      "y1": 12.347999999999999,
+      "x2": 122.239,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 155.577,
+      "y1": 12.347999999999999,
+      "x2": 155.577,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 188.915,
+      "y1": 12.347999999999999,
+      "x2": 188.915,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 17.64,
+      "width": 22.225,
+      "height": 5.292,
+      "text": "発行日",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#F8FAFC",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B5"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 17.64,
+      "x2": 188.915,
+      "y2": 17.64,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 17.64,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "issue_date",
+      "format": "yyyy-MM-dd",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#F8FAFC",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C5"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 22.932000000000002,
+      "x2": 188.915,
+      "y2": 22.932000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 28.224000000000004,
+      "width": 22.225,
+      "height": 5.292,
+      "text": "No",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#E2E8F0",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B7"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 28.224000000000004,
+      "x2": 188.915,
+      "y2": 28.224000000000004,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "text",
+      "x": 22.225,
+      "y": 28.224000000000004,
+      "width": 33.338,
+      "height": 5.292,
+      "text": "品目",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#E2E8F0",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C7"
+    },
+    {
+      "type": "text",
+      "x": 88.90100000000001,
+      "y": 28.224000000000004,
+      "width": 33.338,
+      "height": 5.292,
+      "text": "数量",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#E2E8F0",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E7"
+    },
+    {
+      "type": "text",
+      "x": 122.239,
+      "y": 28.224000000000004,
+      "width": 33.338,
+      "height": 5.292,
+      "text": "単価",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#E2E8F0",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F7"
+    },
+    {
+      "type": "text",
+      "x": 155.577,
+      "y": 28.224000000000004,
+      "width": 33.338,
+      "height": 5.292,
+      "text": "金額",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#E2E8F0",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G7"
+    },
+    {
+      "type": "variable",
+      "x": 0,
+      "y": 33.516000000000005,
+      "width": 22.225,
+      "height": 5.292,
+      "key": "detail[0].no",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B8"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 33.516000000000005,
+      "x2": 188.915,
+      "y2": 33.516000000000005,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 33.516000000000005,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "key": "detail[0].item",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C8"
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 33.516000000000005,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C8:D8"
+    },
+    {
+      "type": "variable",
+      "x": 88.90100000000001,
+      "y": 33.516000000000005,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[0].quantity",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E8"
+    },
+    {
+      "type": "variable",
+      "x": 122.239,
+      "y": 33.516000000000005,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[0].unit_price",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F8"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 33.516000000000005,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[0].amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G8"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 38.80800000000001,
+      "x2": 188.915,
+      "y2": 38.80800000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 0,
+      "y": 38.80800000000001,
+      "width": 22.225,
+      "height": 5.292,
+      "key": "detail[1].no",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B9"
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 38.80800000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "key": "detail[1].item",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C9"
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 38.80800000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C9:D9"
+    },
+    {
+      "type": "variable",
+      "x": 88.90100000000001,
+      "y": 38.80800000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[1].quantity",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E9"
+    },
+    {
+      "type": "variable",
+      "x": 122.239,
+      "y": 38.80800000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[1].unit_price",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F9"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 38.80800000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[1].amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G9"
+    },
+    {
+      "type": "variable",
+      "x": 0,
+      "y": 44.10000000000001,
+      "width": 22.225,
+      "height": 5.292,
+      "key": "detail[2].no",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B10"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 44.10000000000001,
+      "x2": 188.915,
+      "y2": 44.10000000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 44.10000000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C10:D10"
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 44.10000000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "key": "detail[2].item",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C10"
+    },
+    {
+      "type": "variable",
+      "x": 88.90100000000001,
+      "y": 44.10000000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[2].quantity",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E10"
+    },
+    {
+      "type": "variable",
+      "x": 122.239,
+      "y": 44.10000000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[2].unit_price",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F10"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 44.10000000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[2].amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G10"
+    },
+    {
+      "type": "variable",
+      "x": 0,
+      "y": 49.39200000000001,
+      "width": 22.225,
+      "height": 5.292,
+      "key": "detail[3].no",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B11"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 49.39200000000001,
+      "x2": 188.915,
+      "y2": 49.39200000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 49.39200000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "key": "detail[3].item",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C11"
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 49.39200000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C11:D11"
+    },
+    {
+      "type": "variable",
+      "x": 88.90100000000001,
+      "y": 49.39200000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[3].quantity",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E11"
+    },
+    {
+      "type": "variable",
+      "x": 122.239,
+      "y": 49.39200000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[3].unit_price",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F11"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 49.39200000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[3].amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G11"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 54.68400000000001,
+      "x2": 188.915,
+      "y2": 54.68400000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "variable",
+      "x": 0,
+      "y": 54.68400000000001,
+      "width": 22.225,
+      "height": 5.292,
+      "key": "detail[4].no",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "B12"
+    },
+    {
+      "type": "variable",
+      "x": 22.225,
+      "y": 54.68400000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "key": "detail[4].item",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "C12"
+    },
+    {
+      "type": "rect",
+      "x": 22.225,
+      "y": 54.68400000000001,
+      "width": 66.67600000000002,
+      "height": 5.292000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      },
+      "origin": "C12:D12"
+    },
+    {
+      "type": "variable",
+      "x": 88.90100000000001,
+      "y": 54.68400000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[4].quantity",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "E12"
+    },
+    {
+      "type": "variable",
+      "x": 122.239,
+      "y": 54.68400000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[4].unit_price",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F12"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 54.68400000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "detail[4].amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FFFFFF",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G12"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 59.97600000000001,
+      "x2": 188.915,
+      "y2": 59.97600000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 65.26800000000001,
+      "x2": 188.915,
+      "y2": 65.26800000000001,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    },
+    {
+      "type": "text",
+      "x": 122.239,
+      "y": 65.26800000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "text": "合計",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FEF3C7",
+        "foregroundColor": "#000000"
+      },
+      "origin": "F14"
+    },
+    {
+      "type": "variable",
+      "x": 155.577,
+      "y": 65.26800000000001,
+      "width": 33.338,
+      "height": 5.292,
+      "key": "total_amount",
+      "format": "#,##0",
+      "style": {
+        "fontFamily": "Calibri",
+        "fontSize": 3.88,
+        "fontWeight": "normal",
+        "textAlign": "left",
+        "verticalAlign": "bottom",
+        "fillColor": "#FEF3C7",
+        "foregroundColor": "#000000"
+      },
+      "origin": "G14"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 70.56000000000002,
+      "x2": 188.915,
+      "y2": 70.56000000000002,
+      "style": {
+        "borderColor": "#000000",
+        "borderStyle": "solid"
+      }
+    }
+  ]
+}

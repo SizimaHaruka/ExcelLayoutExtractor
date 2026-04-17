@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>demo-order-form Preview</title>
+<style>
+:root { color-scheme: light; font-family: 'Segoe UI', 'Yu Gothic UI', sans-serif; }
+body { margin: 0; background: #f3f4f6; color: #111827; }
+.shell { padding: 24px; }
+.card { width: max-content; padding: 24px; background: white; border-radius: 16px; box-shadow: 0 18px 48px rgba(15, 23, 42, 0.14); }
+.meta { margin-bottom: 16px; font-size: 14px; color: #475569; }
+.page { position: relative; background: #fff; border: 1px solid #cbd5e1; overflow: hidden; }
+.label { position: absolute; box-sizing: border-box; overflow: hidden; white-space: pre-wrap; }
+.variable { border: 0.35mm dashed #2563eb; background: rgba(37, 99, 235, 0.08); color: #1d4ed8; }
+.image { position: absolute; box-sizing: border-box; border: 0.35mm dashed #64748b; background: rgba(148, 163, 184, 0.15); display: flex; align-items: center; justify-content: center; color: #475569; font-size: 10px; }
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="card">
+<div class="meta">Page: 210mm x 297mm / Elements: 67</div>
+<div class="page" style="width:210mm;height:297mm;">
+<div style="position:absolute;left:0mm;top:0mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:0mm;top:0mm;height:7.056mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:0mm;top:0mm;width:188.915mm;height:7.056mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label" style="left:0mm;top:0mm;width:188.915mm;height:7.056mm;font-family:Calibri;font-size:5.64mm;font-weight:bold;text-align:center;color:#000000;">注文書</div>
+<div style="position:absolute;left:188.915mm;top:0mm;height:7.056mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:0mm;top:7.056mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:0mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div class="label" style="left:0mm;top:12.348mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">取引先</div>
+<div style="position:absolute;left:0mm;top:12.348mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:22.225mm;top:12.348mm;width:166.69mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{customer_name}}</div>
+<div style="position:absolute;left:22.225mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:22.225mm;top:12.348mm;width:166.69mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div style="position:absolute;left:55.563mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:88.901mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:122.239mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:155.577mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:188.915mm;top:12.348mm;height:58.212mm;border-left:0.4mm solid #000000;"></div>
+<div class="label" style="left:0mm;top:17.64mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">発行日</div>
+<div style="position:absolute;left:0mm;top:17.64mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:22.225mm;top:17.64mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{issue_date}}</div>
+<div style="position:absolute;left:0mm;top:22.932mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label" style="left:0mm;top:28.224mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">No</div>
+<div style="position:absolute;left:0mm;top:28.224mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label" style="left:22.225mm;top:28.224mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">品目</div>
+<div class="label" style="left:88.901mm;top:28.224mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">数量</div>
+<div class="label" style="left:122.239mm;top:28.224mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">単価</div>
+<div class="label" style="left:155.577mm;top:28.224mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">金額</div>
+<div class="label variable" style="left:0mm;top:33.516mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[0].no}}</div>
+<div style="position:absolute;left:0mm;top:33.516mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:22.225mm;top:33.516mm;width:66.676mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[0].item}}</div>
+<div style="position:absolute;left:22.225mm;top:33.516mm;width:66.676mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label variable" style="left:88.901mm;top:33.516mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[0].quantity}}</div>
+<div class="label variable" style="left:122.239mm;top:33.516mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[0].unit_price}}</div>
+<div class="label variable" style="left:155.577mm;top:33.516mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[0].amount}}</div>
+<div style="position:absolute;left:0mm;top:38.808mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:0mm;top:38.808mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[1].no}}</div>
+<div class="label variable" style="left:22.225mm;top:38.808mm;width:66.676mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[1].item}}</div>
+<div style="position:absolute;left:22.225mm;top:38.808mm;width:66.676mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label variable" style="left:88.901mm;top:38.808mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[1].quantity}}</div>
+<div class="label variable" style="left:122.239mm;top:38.808mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[1].unit_price}}</div>
+<div class="label variable" style="left:155.577mm;top:38.808mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[1].amount}}</div>
+<div class="label variable" style="left:0mm;top:44.1mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[2].no}}</div>
+<div style="position:absolute;left:0mm;top:44.1mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:22.225mm;top:44.1mm;width:66.676mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label variable" style="left:22.225mm;top:44.1mm;width:66.676mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[2].item}}</div>
+<div class="label variable" style="left:88.901mm;top:44.1mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[2].quantity}}</div>
+<div class="label variable" style="left:122.239mm;top:44.1mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[2].unit_price}}</div>
+<div class="label variable" style="left:155.577mm;top:44.1mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[2].amount}}</div>
+<div class="label variable" style="left:0mm;top:49.392mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[3].no}}</div>
+<div style="position:absolute;left:0mm;top:49.392mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:22.225mm;top:49.392mm;width:66.676mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[3].item}}</div>
+<div style="position:absolute;left:22.225mm;top:49.392mm;width:66.676mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label variable" style="left:88.901mm;top:49.392mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[3].quantity}}</div>
+<div class="label variable" style="left:122.239mm;top:49.392mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[3].unit_price}}</div>
+<div class="label variable" style="left:155.577mm;top:49.392mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[3].amount}}</div>
+<div style="position:absolute;left:0mm;top:54.684mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label variable" style="left:0mm;top:54.684mm;width:22.225mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[4].no}}</div>
+<div class="label variable" style="left:22.225mm;top:54.684mm;width:66.676mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[4].item}}</div>
+<div style="position:absolute;left:22.225mm;top:54.684mm;width:66.676mm;height:5.292mm;border:0.4mm solid #000000;box-sizing:border-box;"></div>
+<div class="label variable" style="left:88.901mm;top:54.684mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[4].quantity}}</div>
+<div class="label variable" style="left:122.239mm;top:54.684mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[4].unit_price}}</div>
+<div class="label variable" style="left:155.577mm;top:54.684mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{detail[4].amount}}</div>
+<div style="position:absolute;left:0mm;top:59.976mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div style="position:absolute;left:0mm;top:65.268mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+<div class="label" style="left:122.239mm;top:65.268mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">合計</div>
+<div class="label variable" style="left:155.577mm;top:65.268mm;width:33.338mm;height:5.292mm;font-family:Calibri;font-size:3.88mm;font-weight:normal;text-align:left;color:#000000;">{{total_amount}}</div>
+<div style="position:absolute;left:0mm;top:70.56mm;width:188.915mm;border-top:0.4mm solid #000000;"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
